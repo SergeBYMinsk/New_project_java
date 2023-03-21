@@ -8,6 +8,10 @@ public class newClass {
         String str = scanner.nextLine();
         System.out.println(str);
 
+        int value = scanner.nextInt();
+
+        System.out.println("string = " + str + "integer = " + value);
+
 
     }
 }
