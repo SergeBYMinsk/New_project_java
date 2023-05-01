@@ -1,4 +1,4 @@
-package Blinof_java;
+package blinof_java;
 
 public class FistProgram {
     public static void main(String[] args) {
