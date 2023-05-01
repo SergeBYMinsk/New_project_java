@@ -2,17 +2,14 @@ import java.util.Scanner;
 
 public class Task_2 {
     public static void main(String[] args) {
-        while (true)
-        {
+        while (true) {
             Scanner scanner = new Scanner(System.in);
             System.out.println("Enter name city");
             String city = scanner.next();
-            if (city.equalsIgnoreCase("stop"))
-            {
+            if (city.equalsIgnoreCase("stop")) {
                 System.out.println("You want to exit the program 'Y' or 'N'");
                 String result = scanner.next();
-                if (result.equalsIgnoreCase("y"))
-                {
+                if (result.equalsIgnoreCase("y")) {
                     System.out.println("Good bye");
                     break;
                 }

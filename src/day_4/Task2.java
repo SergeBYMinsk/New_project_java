@@ -5,10 +5,11 @@ import java.util.Random;
 
 public class Task2 {
     public static void main(String[] args) {
-        int [] array = new int[100];
+        int[] array = new int[100];
         Random random = new Random();
-        for (int i = 0; i < array.length; i++){
-            array[i] = random.nextInt(1000);;
+        for (int i = 0; i < array.length; i++) {
+            array[i] = random.nextInt(1000);
+            ;
         }
         System.out.println(Arrays.toString(array));
         int max = array[0];
@@ -16,16 +17,16 @@ public class Task2 {
         int counter = 0;
         int sumCounter = 0;
 
-        for (int element: array) {
+        for (int element : array) {
             if (element > max)
                 max = element;
         }
-        for (int element: array){
+        for (int element : array) {
             if (element < min)
                 min = element;
         }
-        for (int element: array){
-            if (element % 10 == 0){
+        for (int element : array) {
+            if (element % 10 == 0) {
                 counter++;
                 sumCounter += element;
                 System.out.println(element);
@@ -35,9 +36,6 @@ public class Task2 {
         System.out.println(min);
         System.out.println(counter);
         System.out.println(sumCounter);
-
-
-
 
 
     }

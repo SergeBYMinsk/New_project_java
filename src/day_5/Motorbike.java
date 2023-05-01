@@ -31,10 +31,12 @@ public class Motorbike {
                 ", modelMoto='" + modelMoto + '\'' +
                 '}';
     }
-    public void info(){
+
+    public void info() {
         System.out.println("This is a motorbike ");
     }
-    public int getDifferenceYear(int year){
+
+    public int getDifferenceYear(int year) {
         return Math.abs(this.yearMoto - year);
     }
 }

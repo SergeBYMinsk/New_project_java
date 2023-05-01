@@ -37,10 +37,12 @@ public class Car {
                 ", modelCar='" + modelCar + '\'' +
                 '}';
     }
-    public void info(){
+
+    public void info() {
         System.out.println("This is a car ");
     }
-    public int getDifferenceYear(int year){
+
+    public int getDifferenceYear(int year) {
         return Math.abs(this.yearCar - year);
     }
 }

@@ -20,7 +20,7 @@ public class MainTask {
         System.out.println("\nColor: " + car2.getColorCar() + "\nYear: " + car2.getYearCar() + "\nModel car: " + car2.getModelCar());
         System.out.println("difference " + car1.getDifferenceYear(car2.getYearCar()) + " years");
 
-        Motorbike motorbike1 = new Motorbike(2022,"Gray","Kawasaki");
+        Motorbike motorbike1 = new Motorbike(2022, "Gray", "Kawasaki");
         Motorbike motorbike2 = new Motorbike(2020, "Green", "BMW");
 
         motorbike1.info();

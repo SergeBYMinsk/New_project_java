@@ -21,14 +21,13 @@ public class Generator_value {
                 } else {
                     System.out.println("you win!!!");
                 }
-                count ++;
+                count++;
 
             }
             System.out.println("Wold you like this is game  'Yes' or 'No'");
 
 
-        } while (query.equalsIgnoreCase("y")) ;
-
+        } while (query.equalsIgnoreCase("y"));
 
 
     }
