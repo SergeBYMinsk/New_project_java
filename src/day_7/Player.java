@@ -12,9 +12,9 @@ public class Player {
         return stamina;
     }
 
-    public Player(){
-        if (countPlayers < 6){
-            countPlayers ++;
+    public Player() {
+        if (countPlayers < 6) {
+            countPlayers++;
             Random random = new Random();
             stamina += MAX_STAMINA - random.nextInt(10);
             System.out.println("Players stamina = " + stamina + " :" + Player.countPlayers);
@@ -22,17 +22,19 @@ public class Player {
             System.out.println("no more six players");
         }
     }
-    public void run(){
+
+    public void run() {
         if (stamina == 90)
-        return;
-        stamina --;
-        if (stamina == 90){
+            return;
+        stamina--;
+        if (stamina == 90) {
             countPlayers--;
             System.out.println("stamina : " + stamina + " players : " + Player.countPlayers);
         }
     }
-    public static void info(){
-        if (countPlayers < 6){
+
+    public static void info() {
+        if (countPlayers < 6) {
             System.out.println("the team is not complete, and plays " + countPlayers);
         } else {
             System.out.println("No vacant tables");

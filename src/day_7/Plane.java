@@ -45,8 +45,9 @@ public class Plane {
                 ", fuelVolume=" + fuelVolume +
                 '}';
     }
-    public static void printingWhichLonger(Plane plane, Plane plane1){
-        if(plane.getBodyLong() > plane1.getBodyLong()){
+
+    public static void printingWhichLonger(Plane plane, Plane plane1) {
+        if (plane.getBodyLong() > plane1.getBodyLong()) {
             System.out.println(plane.getManufacturer() + " long");
         } else {
             System.out.println(plane.getManufacturer() + " small");

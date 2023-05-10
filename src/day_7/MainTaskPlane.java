@@ -4,7 +4,7 @@ package day_7;
 public class MainTaskPlane {
     public static void main(String[] args) {
         Plane plane = new Plane("Air buss", 2020, 35.5, 2589.5);
-        Plane plane1 = new Plane("Boeing", 2019,158.6,3894.1);
+        Plane plane1 = new Plane("Boeing", 2019, 158.6, 3894.1);
 
         System.out.println(plane.toString());
         plane.setBodyLong(38.3);
@@ -23,6 +23,6 @@ public class MainTaskPlane {
         System.out.println(plane1.toString());
 
 
-        Plane.printingWhichLonger(plane,plane1);
+        Plane.printingWhichLonger(plane, plane1);
     }
 }
