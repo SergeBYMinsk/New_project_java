@@ -1,7 +1,7 @@
 package day_7;
 
 
-public class MainTask {
+public class MainTaskPlane {
     public static void main(String[] args) {
         Plane plane = new Plane("Air buss", 2020, 35.5, 2589.5);
         Plane plane1 = new Plane("Boeing", 2019,158.6,3894.1);
